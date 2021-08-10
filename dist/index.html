@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI Library</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- tooltip -->
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia non
+        voluptates neque
+        <span class="tooltip" data-message="I'm a tooltip!"
+          >alias error ea?</span
+        >
+        Fugiat, omnis veritatis? Saepe molestiae obcaecati laudantium commodi
+        aut provident suscipit architecto eos iusto vero?
+      </p>
+      <h2>Services</h2>
+      <!-- dropdowns -->
+      <div class="dropdown">
+        <div class="trigger">Awesome T-shirt Designs</div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+            aperiam amet veniam iusto provident saepe corporis nesciunt quis
+            autem quibusdam, distinctio recusandae animi velit optio dolorum
+            aspernatur, voluptatum est inventore!
+          </p>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="trigger">Cool Sticker Printing</div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+            reiciendis, commodi magni dicta repudiandae perspiciatis sit maiores
+            sed optio cumque consequatur. Harum, provident sapiente. Odio alias
+            tenetur atque sequi. Repellat.
+          </p>
+        </div>
+      </div>
+      <h2>More information</h2>
+      <!-- tabs -->
+      <div class="tabs">
+        <ul>
+          <li class="trigger active" data-target="#about">About</li>
+          <li class="trigger" data-target="#delivery">Delivery info</li>
+          <li class="trigger" data-target="#returns">Returns info</li>
+        </ul>
+        <div id="about" class="content active">
+          <h3>about</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            beatae molestias quaerat ullam soluta eius voluptatem, obcaecati
+            unde in, aspernatur quos nesciunt esse odit cumque officia libero
+            vitae. Nesciunt, reprehenderit!
+          </p>
+        </div>
+        <div id="delivery" class="content">
+          <h3>delivery</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            dolore vitae aliquam commodi corrupti, ullam quod ipsam. Magnam
+            explicabo consequuntur deserunt? Itaque quam temporibus, quisquam ab
+            voluptates nisi nostrum distinctio.
+          </p>
+        </div>
+        <div id="returns" class="content">
+          <h3>returns</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            magnam illum pariatur ea quidem repellendus eligendi cupiditate
+            laboriosam accusantium molestias architecto distinctio in, expedita
+            nulla maxime non sunt amet? Eaque.
+          </p>
+        </div>
+      </div>
+      <button class="snackbar-trigger">click me</button>
+    </div>
+    <script src="assets/bundle.js"></script>
+  </body>
+</html>
